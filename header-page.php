@@ -6,7 +6,7 @@
 <body>
 	<div class="container-fluid bg-blue">
 
-	<div class="container-fluid fixed-top" id="nav-container">
+	<div class="container-fluid bg-light" id="nav-container">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 			  <a class="navbar-brand py-3 text-center" href="#">BH</a>
@@ -22,7 +22,7 @@
 			        <a class="nav-link" href="#">Services</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="<?php echo site_url('about-us'); ?>">About Us</a>
+			        <a class="nav-link" href="#">Work</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Contact</a>
@@ -32,3 +32,6 @@
 			</nav>
 		</div>
 	</div>
+	<header style="background-image:url(<?php echo get_theme_file_uri('/images/paperBoats.jpeg'); ?>); background-size:cover; background-position: center; height:300px;">
+
+	</header>
